@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>GitLocalizeのご紹介: GitHubリポジトリのための継続的ローカライゼーションツール | GitLocalize blog</title>
+	<meta name="description" content="新しいローカライゼーションプラットフォーム、GitLocalizeのベータ版がローンチしました！">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="/js/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/ja/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/ja/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://blog.gitlocalize.com/ja/posts/introducing-gitlocalize.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="GitLocalize blog" href="http://blog.gitlocalize.com/ja/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+</head>
+
+  <body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-79830225-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    <header class="navbar navbar-default gl-header">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/ja/">
+        <img class="avatar" src="/ja/img/logo.png"/>blog
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+	  			<a class="page-link" href="https://gitlocalize.com" target="_blank">GitLocalize</a>
+        </li>
+	  		
+          
+	  		
+          
+	  		
+          
+	  		
+          
+	  		
+	  		<!-- Social icons from Font Awesome, if enabled -->
+	  		
+<li>
+	<a href="http://blog.gitlocalize.com/ja/feed.xml" title="Follow RSS feed">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="mailto:info@gitlocalize.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <div class="container content-container">
+      <article >
+  <header style="background-image: url('/ja/')">
+    <h1 class="title">GitLocalizeのご紹介: GitHubリポジトリのための継続的ローカライゼーションツール</h1>
+    <p class="meta">
+    May 12, 2017
+    
+    
+      <ul class="languages">
+        
+          <li>
+            
+              <a href="/posts/introducing-gitlocalize.html">en</a>
+            
+          </li>
+        
+      </ul>
+    
+    </p>
+  </header>
+  <section class="post-content"><p>新しいローカライゼーションプラットフォーム、<a href="https://gitlocalize.com">GitLocalize</a>のベータ版がローンチしました！</p>
+
+<p>GitLocalizeは、GitHubリポジトリ用の継続的なローカリゼーションプラットフォームで、開発者向けにプロセスを自動化します。インターネット関連の製品はアップデートが頻繁に起こるため、ローカライズを維持することは本当に難しい作業でしたが、 GitLocalizeはGitHubリポジトリに接続し、数回のクリックで開発ワークフローと自然に統合することで、継続的なローカライゼーションの問題を解決します。</p>
+
+<p>現在Markdownファイルをサポートしてますので、ローカライズするドキュメントプロジェクトがある場合は、是非GitLocalizeを試してみてください。</p>
+
+<p><a class="btn btn-hero" href="https://gitlocalize.com/auth/github"><br />  <i class="fa fa-github"></i><span style="margin-left: 6px;">GitHubですぐに始める</span></a></p>
+
+<h1 id="主な特徴">主な特徴</h1>
+
+<p>GitHubアカウントを使ってすぐに始めることができます。リポジトリを選択してGitLocalizeと統合し、ファイルをローカライズします。プラットフォームの主な機能は次のとおりです。</p>
+
+<h3 id="githubベースのワークフロー">GitHubベースのワークフロー</h3>
+
+<p><img src="/img/flow.png" alt="GitHub based workflow" /></p>
+
+<p>リポジトリをGitLocalizeと統合すると、ローカライゼーション関連のすべてのファイルがプラットフォームにpullされ、変更が監視され始めます。</p>
+
+<p>ファイルの翻訳が完了したら、レビューリクエストを作り、変更をレビューするようチームに依頼します。GitHubで行なっている、プルリクエストと同じようなフローです。</p>
+
+<p>レビューが完了したら、プルリクエストをリポジトリに送り返すことができます。GitLocalizeでの貢献が、それぞれのユーザーのコミットとなります。</p>
+
+<p>GitLocalizeを利用すると、チームはプロジェクトをローカライズするために余分な作業を行う必要がなくなり、開発者はプルリクエストを見るだけで済みます。</p>
+
+<h3 id="翻訳文の差分管理">翻訳文の差分管理</h3>
+
+<p><img src="/img/diff_management.png" alt="Diff management" /></p>
+
+<p>自動的に元の文と翻訳をリンクするので、元の文が更新されたときに、どこを翻訳すれば良いのかすぐにわかります。</p>
+
+<p>オリジナルの更新によって影響を受ける部分を目視で確認する必要はありません。GitLocalizeエディタを見て足りない翻訳を行うだけです。</p>
+
+<p>もちろん、これから続々と機能が追加されて行きます！</p>
+
+<h1 id="もっと詳しく">もっと詳しく</h1>
+
+<p>どのように動くのか、詳しくは以下のビデオをご覧ください！</p>
+
+<iframe src="https://www.youtube.com/embed/b09LDukIJiU" frameborder="0" allowfullscreen="" style="width: 100%; height: 500px"></iframe>
+
+<h1 id="楽しいローカライゼーションを">楽しいローカライゼーションを！</h1>
+
+<p>製品を改善し、ローカライゼーションのより良い未来を作るため、皆様のご意見が必要です。<a href="https://gitlocalize.com/inquiries/new">こちらに</a>是非フィードバックをお寄せください。即日でご返信します。</p>
+
+<p>こちらの<a href="https://gitter.im/gitlocalize/Lobby?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link">Gitterチャンネル</a>もありますので、自由に参加して会話に参加してください。</p>
+
+<p>もちろん、このブログはGitLocalizeを使って日本語にローカライズされていますので、<a href="https://gitlocalize.com/repo/78">ここ</a>から翻訳を提案してください。</p>
+
+<p>ローカライゼーションを簡単かつスムーズにし、製品のグローバルな成功をサポートできるよう願っています！</p>
+</section>
+</article>
+
+<!-- Post navigation -->
+
+
+<!-- Disqus -->
+
+
+<!-- Muut -->
+
+
+    </div>
+    
+<script src="/ja/js/katex_init.js"></script>
+
+
+
+
+  </body>
+</html>

@@ -1,22 +1,70 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.theme.title | xml_escape }}</title>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <description>{{ site.theme.description | xml_escape }}</description>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    {% for post in site.posts limit:15 %}
+    <title></title>
+    <atom:link href="http://blog.gitlocalize.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://blog.gitlocalize.com/</link>
+    <description></description>
+    <pubDate>Sat, 13 May 2017 06:42:13 -0700</pubDate>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <title>Introducing GitLocalize, a continuous localization platform for GitHub repository</title>
+        <link>http://blog.gitlocalize.com/posts/introducing-gitlocalize.html</link>
+        <guid isPermaLink="true">http://blog.gitlocalize.com/posts/introducing-gitlocalize.html</guid>
+        <description>&lt;p&gt;We are excited to announce the beta launch of our new localization platform, &lt;a href=&quot;https://gitlocalize.com&quot;&gt;GitLocalize&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;GitLocalize is a continuous localization platform for GitHub repositories and automates the process for developers. Because of the ever-changing nature of Internet-related product, keeping localizing them has been really challenging. GitLocalize solves this by connecting to your GitHub repository and naturally integrating with your development workflow in just a few clicks.&lt;/p&gt;
+
+&lt;p&gt;We started supporting from Markdown files. Try GitLocalize in a minute if you have a documentation project that you want to localize.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-hero&quot; href=&quot;https://gitlocalize.com/auth/github&quot;&gt;
+  &lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;span style=&quot;margin-left: 6px;&quot;&gt;Get started now with GitHub&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;how-it-works&quot;&gt;How it works&lt;/h1&gt;
+
+&lt;p&gt;You can immediately get started with your GitHub account, choose your repository to integrate with GitLocalize and localize your files. Here are the key features of the platform:&lt;/p&gt;
+
+&lt;h3 id=&quot;github-based-workflow&quot;&gt;GitHub based workflow&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/flow.png&quot; alt=&quot;GitHub based workflow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you integrate your repo with GitLocalize, it starts pulling all the localization related files into its platform and watching the changes.&lt;/p&gt;
+
+&lt;p&gt;When you finish translating a file, you then make a review request and ask the team to review the changes, like what you do with a pull request.&lt;/p&gt;
+
+&lt;p&gt;After the review process, you can send a pull request back to your repo. It makes each contribution on GitLocalize each user’s commit on the repository.&lt;/p&gt;
+
+&lt;p&gt;With GitLocalize, your team no longer need to do anything extra to localize your project and developers only need to look at those pull request coming.&lt;/p&gt;
+
+&lt;h3 id=&quot;diff-management-on-translations&quot;&gt;Diff management on translations&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/diff_management.png&quot; alt=&quot;Diff management&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since it automatically links a translation with its original sentence, it can show you which part needs to be translated when the original one is updated.&lt;/p&gt;
+
+&lt;p&gt;No need to manually check which parts are affected due to the original updated. You just need to look at GitLocalize editor and fill in the missing translations.&lt;/p&gt;
+
+&lt;p&gt;And of course, more features are lined up and will be shipped soon!&lt;/p&gt;
+
+&lt;h1 id=&quot;more-details&quot;&gt;More details&lt;/h1&gt;
+
+&lt;p&gt;Check out the video below to see how it works in more depth!&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/b09LDukIJiU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width: 100%; height: 500px&quot;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&quot;happy-localizing&quot;&gt;Happy localizing!&lt;/h1&gt;
+
+&lt;p&gt;We need your feedback to improve and bring the product to create the better future for localization. Please feel free to give us any feedbacks &lt;a href=&quot;https://gitlocalize.com/inquiries/new&quot;&gt;here&lt;/a&gt;. We will respond within a day.&lt;/p&gt;
+
+&lt;p&gt;Also, we have &lt;a href=&quot;https://gitter.im/gitlocalize/Lobby?utm_source=share-link&amp;amp;utm_medium=link&amp;amp;utm_campaign=share-link&quot;&gt;a Gitter channel&lt;/a&gt; to chat. Feel free to join and jump into the conversation.&lt;/p&gt;
+
+&lt;p&gt;And of course, this blog is localized into &lt;a href=&quot;httpw://blog.gitlocalize.com/posts/ja/introducing-gitlocalize.html&quot;&gt;Japanese&lt;/a&gt; with GitLocalize, make a suggestion for the translation from &lt;a href=&quot;https://gitlocalize.com/repo/78&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We hope to make your localization far easier and smoother and support your product’s global success! Happy localizing!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 May 2017 00:00:00 -0700</pubDate>
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>

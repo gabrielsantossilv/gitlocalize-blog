@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <atom:link href="http://blog.gitlocalize.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>http://blog.gitlocalize.com/ja/</link>
+    <description></description>
+    <pubDate>Sat, 13 May 2017 06:42:13 -0700</pubDate>
+    
+      <item>
+        <title>GitLocalizeのご紹介: GitHubリポジトリのための継続的ローカライゼーションツール</title>
+        <link>http://blog.gitlocalize.com/ja/posts/introducing-gitlocalize.html</link>
+        <guid isPermaLink="true">http://blog.gitlocalize.com/ja/posts/introducing-gitlocalize.html</guid>
+        <description>&lt;p&gt;新しいローカライゼーションプラットフォーム、&lt;a href=&quot;https://gitlocalize.com&quot;&gt;GitLocalize&lt;/a&gt;のベータ版がローンチしました！&lt;/p&gt;
+
+&lt;p&gt;GitLocalizeは、GitHubリポジトリ用の継続的なローカリゼーションプラットフォームで、開発者向けにプロセスを自動化します。インターネット関連の製品はアップデートが頻繁に起こるため、ローカライズを維持することは本当に難しい作業でしたが、 GitLocalizeはGitHubリポジトリに接続し、数回のクリックで開発ワークフローと自然に統合することで、継続的なローカライゼーションの問題を解決します。&lt;/p&gt;
+
+&lt;p&gt;現在Markdownファイルをサポートしてますので、ローカライズするドキュメントプロジェクトがある場合は、是非GitLocalizeを試してみてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-hero&quot; href=&quot;https://gitlocalize.com/auth/github&quot;&gt;&lt;br /&gt;  &lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;span style=&quot;margin-left: 6px;&quot;&gt;GitHubですぐに始める&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;主な特徴&quot;&gt;主な特徴&lt;/h1&gt;
+
+&lt;p&gt;GitHubアカウントを使ってすぐに始めることができます。リポジトリを選択してGitLocalizeと統合し、ファイルをローカライズします。プラットフォームの主な機能は次のとおりです。&lt;/p&gt;
+
+&lt;h3 id=&quot;githubベースのワークフロー&quot;&gt;GitHubベースのワークフロー&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/flow.png&quot; alt=&quot;GitHub based workflow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;リポジトリをGitLocalizeと統合すると、ローカライゼーション関連のすべてのファイルがプラットフォームにpullされ、変更が監視され始めます。&lt;/p&gt;
+
+&lt;p&gt;ファイルの翻訳が完了したら、レビューリクエストを作り、変更をレビューするようチームに依頼します。GitHubで行なっている、プルリクエストと同じようなフローです。&lt;/p&gt;
+
+&lt;p&gt;レビューが完了したら、プルリクエストをリポジトリに送り返すことができます。GitLocalizeでの貢献が、それぞれのユーザーのコミットとなります。&lt;/p&gt;
+
+&lt;p&gt;GitLocalizeを利用すると、チームはプロジェクトをローカライズするために余分な作業を行う必要がなくなり、開発者はプルリクエストを見るだけで済みます。&lt;/p&gt;
+
+&lt;h3 id=&quot;翻訳文の差分管理&quot;&gt;翻訳文の差分管理&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/diff_management.png&quot; alt=&quot;Diff management&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;自動的に元の文と翻訳をリンクするので、元の文が更新されたときに、どこを翻訳すれば良いのかすぐにわかります。&lt;/p&gt;
+
+&lt;p&gt;オリジナルの更新によって影響を受ける部分を目視で確認する必要はありません。GitLocalizeエディタを見て足りない翻訳を行うだけです。&lt;/p&gt;
+
+&lt;p&gt;もちろん、これから続々と機能が追加されて行きます！&lt;/p&gt;
+
+&lt;h1 id=&quot;もっと詳しく&quot;&gt;もっと詳しく&lt;/h1&gt;
+
+&lt;p&gt;どのように動くのか、詳しくは以下のビデオをご覧ください！&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/b09LDukIJiU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width: 100%; height: 500px&quot;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&quot;楽しいローカライゼーションを&quot;&gt;楽しいローカライゼーションを！&lt;/h1&gt;
+
+&lt;p&gt;製品を改善し、ローカライゼーションのより良い未来を作るため、皆様のご意見が必要です。&lt;a href=&quot;https://gitlocalize.com/inquiries/new&quot;&gt;こちらに&lt;/a&gt;是非フィードバックをお寄せください。即日でご返信します。&lt;/p&gt;
+
+&lt;p&gt;こちらの&lt;a href=&quot;https://gitter.im/gitlocalize/Lobby?utm_source=share-link&amp;amp;utm_medium=link&amp;amp;utm_campaign=share-link&quot;&gt;Gitterチャンネル&lt;/a&gt;もありますので、自由に参加して会話に参加してください。&lt;/p&gt;
+
+&lt;p&gt;もちろん、このブログはGitLocalizeを使って日本語にローカライズされていますので、&lt;a href=&quot;https://gitlocalize.com/repo/78&quot;&gt;ここ&lt;/a&gt;から翻訳を提案してください。&lt;/p&gt;
+
+&lt;p&gt;ローカライゼーションを簡単かつスムーズにし、製品のグローバルな成功をサポートできるよう願っています！&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 May 2017 00:00:00 -0700</pubDate>
+      </item>
+    
+  </channel>
+</rss>
