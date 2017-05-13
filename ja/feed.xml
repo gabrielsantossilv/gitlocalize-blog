@@ -5,7 +5,7 @@
     <atom:link href="http://blog.gitlocalize.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://blog.gitlocalize.com/ja/</link>
     <description></description>
-    <pubDate>Sat, 13 May 2017 06:42:13 -0700</pubDate>
+    <pubDate>Sat, 13 May 2017 06:46:12 -0700</pubDate>
     
       <item>
         <title>GitLocalizeのご紹介: GitHubリポジトリのための継続的ローカライゼーションツール</title>
@@ -17,7 +17,7 @@
 
 &lt;p&gt;現在Markdownファイルをサポートしてますので、ローカライズするドキュメントプロジェクトがある場合は、是非GitLocalizeを試してみてください。&lt;/p&gt;
 
-&lt;p&gt;&lt;a class=&quot;btn btn-hero&quot; href=&quot;https://gitlocalize.com/auth/github&quot;&gt;&lt;br /&gt;  &lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;span style=&quot;margin-left: 6px;&quot;&gt;GitHubですぐに始める&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;btn btn-hero&quot; href=&quot;https://gitlocalize.com/auth/github&quot;&gt;&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;span style=&quot;margin-left: 6px;&quot;&gt;GitHubですぐに始める&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;主な特徴&quot;&gt;主な特徴&lt;/h1&gt;
 
