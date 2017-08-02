@@ -5,7 +5,24 @@
     <atom:link href="http://blog.gitlocalize.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://blog.gitlocalize.com/ja/</link>
     <description></description>
-    <pubDate>Mon, 15 May 2017 02:45:33 -0700</pubDate>
+    <pubDate>Wed, 02 Aug 2017 13:33:57 +0900</pubDate>
+    
+      <item>
+        <title>GitLocalizeがGitHubマーケットプレイスにローンチされました！</title>
+        <link>http://blog.gitlocalize.com/ja/posts/github-marketplace-launch.html</link>
+        <guid isPermaLink="true">http://blog.gitlocalize.com/ja/posts/github-marketplace-launch.html</guid>
+        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/marketplace/gitlocalize&quot;&gt;GitLocalize&lt;/a&gt;が&lt;a href=&quot;https://github.com/marketplace&quot;&gt;GitHub Marketplace&lt;/a&gt;にて最初のローカリゼーションアプリとしてローンチされました！&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ghm/main.png&quot; alt=&quot;GitHub Marketplace top page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gitlocalize.com&quot;&gt;GitLocalize&lt;/a&gt;は、8月1日に&lt;a href=&quot;https://github.com/marketplace&quot;&gt;GitHub Marketplace&lt;/a&gt;にローンチされた7つの新しいアプリケーションの1つで、&lt;a href=&quot;https://github.com/marketplace/category/localization&quot;&gt;ローカリゼーション&lt;/a&gt;は新しいカテゴリです！&lt;/p&gt;
+
+&lt;p&gt;GitHubは、 &lt;a href=&quot;https://gitlocalize.com&quot;&gt;GitLocalize&lt;/a&gt;を含む新しいアプリを、公式のブログ記事&lt;a href=&quot;https://github.com/blog/2411-introducing-seven-new-apps-to-github-marketplace&quot;&gt;“Introducing seven new apps to GitHub Marketplace”&lt;/a&gt;にて紹介しています。記事を読んで、他の素晴らしいアプリについてもチェックして見てください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/marketplace/gitlocalize&quot;&gt;アプリのページ&lt;/a&gt;から、価格の詳細を確認して、是非今すぐ無料プランを始めてみてください！&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Aug 2017 00:00:00 +0900</pubDate>
+      </item>
     
       <item>
         <title>GitLocalizeのご紹介: GitHubリポジトリのための継続的ローカライゼーションツール</title>
@@ -61,7 +78,7 @@
 
 &lt;p&gt;ローカライゼーションを簡単かつスムーズにし、製品のグローバルな成功をサポートできるよう願っています！&lt;/p&gt;
 </description>
-        <pubDate>Fri, 12 May 2017 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 12 May 2017 00:00:00 +0900</pubDate>
       </item>
     
   </channel>

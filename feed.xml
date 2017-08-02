@@ -5,7 +5,24 @@
     <atom:link href="http://blog.gitlocalize.com/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://blog.gitlocalize.com/</link>
     <description></description>
-    <pubDate>Mon, 15 May 2017 02:45:33 -0700</pubDate>
+    <pubDate>Wed, 02 Aug 2017 13:33:56 +0900</pubDate>
+    
+      <item>
+        <title>GitLocalize is Now Available on GitHub Marketplace!</title>
+        <link>http://blog.gitlocalize.com/posts/github-marketplace-launch.html</link>
+        <guid isPermaLink="true">http://blog.gitlocalize.com/posts/github-marketplace-launch.html</guid>
+        <description>&lt;p&gt;We are excited to announce that we have launched &lt;a href=&quot;https://github.com/marketplace/gitlocalize&quot;&gt;GitLocalize&lt;/a&gt; on &lt;a href=&quot;https://github.com/marketplace&quot;&gt;GitHub Marketplace&lt;/a&gt; as the first localization app!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ghm/main.png&quot; alt=&quot;GitHub Marketplace top page&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gitlocalize.com&quot;&gt;GitLocalize&lt;/a&gt; is a one of the seven new apps that lauched on &lt;a href=&quot;https://github.com/marketplace&quot;&gt;GitHub Marketplace&lt;/a&gt; on August 1st and our category &lt;a href=&quot;https://github.com/marketplace/category/localization&quot;&gt;localization&lt;/a&gt; is the new category on the marketplace!&lt;/p&gt;
+
+&lt;p&gt;GitHub introduces the new apps including &lt;a href=&quot;https://gitlocalize.com&quot;&gt;GitLocalize&lt;/a&gt; in their official blog post, &lt;a href=&quot;https://github.com/blog/2411-introducing-seven-new-apps-to-github-marketplace&quot;&gt;“Introducing seven new apps to GitHub Marketplace”&lt;/a&gt;. Check out the article to know more about other cool apps on the marketplace.&lt;/p&gt;
+
+&lt;p&gt;Go to our &lt;a href=&quot;https://github.com/marketplace/gitlocalize&quot;&gt;app page&lt;/a&gt; to find out more about our different pricing options and start the Free plan today!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 02 Aug 2017 00:00:00 +0900</pubDate>
+      </item>
     
       <item>
         <title>Introducing GitLocalize, a continuous localization platform for GitHub repository</title>
@@ -63,7 +80,7 @@
 
 &lt;p&gt;We hope to make your localization far easier and smoother and support your product’s global success! Happy localizing!&lt;/p&gt;
 </description>
-        <pubDate>Fri, 12 May 2017 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 12 May 2017 00:00:00 +0900</pubDate>
       </item>
     
   </channel>
