@@ -5,7 +5,7 @@
     <atom:link href="http://blog.gitlocalize.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://blog.gitlocalize.com/ja/</link>
     <description></description>
-    <pubDate>Thu, 28 Sep 2017 09:59:58 +0900</pubDate>
+    <pubDate>Thu, 28 Sep 2017 10:02:16 +0900</pubDate>
     
       <item>
         <title>GitLocalizeを使ってRuby on Rails アプリをローカライズ</title>
@@ -21,7 +21,7 @@
   &lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;span style=&quot;margin-left: 6px;&quot;&gt;無料で始める&lt;/span&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;GitLocalizeが実際にどう動くのか、&lt;a href=&quot;/posts/introducing-gitlocalize.html&quot;&gt;こちらのブログ記事&lt;/a&gt; をチェックしてみてください。&lt;/p&gt;
+&lt;p&gt;GitLocalizeが実際にどう動くのか、&lt;a href=&quot;/posts/ja/introducing-gitlocalize.html&quot;&gt;こちらのブログ記事&lt;/a&gt; をチェックしてみてください。&lt;/p&gt;
 
 &lt;h1 id=&quot;railsアプリを登録する&quot;&gt;Railsアプリを登録する&lt;/h1&gt;
 
