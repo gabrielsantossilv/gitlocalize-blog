@@ -5,7 +5,50 @@
     <atom:link href="http://blog.gitlocalize.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://blog.gitlocalize.com/ja/</link>
     <description></description>
-    <pubDate>Mon, 25 Sep 2017 18:40:02 +0900</pubDate>
+    <pubDate>Thu, 28 Sep 2017 09:59:58 +0900</pubDate>
+    
+      <item>
+        <title>GitLocalizeを使ってRuby on Rails アプリをローカライズ</title>
+        <link>http://blog.gitlocalize.com/ja/posts/ruby-on-rails-support.html</link>
+        <guid isPermaLink="true">http://blog.gitlocalize.com/ja/posts/ruby-on-rails-support.html</guid>
+        <description>&lt;p&gt;Ruby on Railsのi18n YAMLファイルを管理とそれに伴うローカリゼーション作業に苦労していませんか？ GitLocalizeは面倒なRails i18nのすべての作業を簡単にすることができます！&lt;/p&gt;
+
+&lt;h1 id=&quot;開始する&quot;&gt;開始する&lt;/h1&gt;
+
+&lt;p&gt;まだサインアップしていない場合は、無料でGitLocalizeに登録して、Railsアプリをストレスなくローカライズする準備をしましょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-hero&quot; href=&quot;https://gitlocalize.com/auth/github&quot;&gt;
+  &lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;span style=&quot;margin-left: 6px;&quot;&gt;無料で始める&lt;/span&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;GitLocalizeが実際にどう動くのか、&lt;a href=&quot;/posts/introducing-gitlocalize.html&quot;&gt;こちらのブログ記事&lt;/a&gt; をチェックしてみてください。&lt;/p&gt;
+
+&lt;h1 id=&quot;railsアプリを登録する&quot;&gt;Railsアプリを登録する&lt;/h1&gt;
+
+&lt;p&gt;プロフィールから &lt;code class=&quot;highlighter-rouge&quot;&gt;Repository追加&lt;/code&gt; ページへ移動すると、GitHubリポジトリをGitLocalizeに追加するフォームがあります。&lt;/p&gt;
+
+&lt;p&gt;ページの中央で、ソースi18nファイルの場所と翻訳ファイルの生成場所を指定します。&lt;/p&gt;
+
+&lt;p&gt;たとえば英語のi18n YAMLファイルが&lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt;にあり、 翻訳したいファイルが&lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/ja.yml&lt;/code&gt;や&lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/es.yml&lt;/code&gt;にあるとします。この場合、左側のドロップダウンメニューで&lt;code class=&quot;highlighter-rouge&quot;&gt;File&lt;/code&gt;を選択し、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Source Path&lt;/code&gt;に&lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; 、&lt;code class=&quot;highlighter-rouge&quot;&gt;Translation Path&lt;/code&gt;に&lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/%lang%.yml&lt;/code&gt;を入力します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ror/path_rule.png&quot; alt=&quot;Add Rules&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;この &lt;code class=&quot;highlighter-rouge&quot;&gt;%lang%&lt;/code&gt; は翻訳対象言語の二文字の言語コードのプレースホルダーです。例えば、日本語とスペイン語を翻訳している場合、&lt;code class=&quot;highlighter-rouge&quot;&gt;ja.yml&lt;/code&gt; と &lt;code class=&quot;highlighter-rouge&quot;&gt;es.yml&lt;/code&gt; がそれぞれ生成されます。&lt;/p&gt;
+
+&lt;p&gt;i18nファイルが複数ある場合は、 &lt;code class=&quot;highlighter-rouge&quot;&gt;+ Add Rule&lt;/code&gt;ボタンをクリックすることで、複数のルールを登録できます。&lt;/p&gt;
+
+&lt;h1 id=&quot;ローカライズを始める&quot;&gt;ローカライズを始める&lt;/h1&gt;
+
+&lt;p&gt;リポジトリの登録が完了したら、GitLocalizeであなたのRailsアプリの継続的ローカライズを始めることができます。&lt;/p&gt;
+
+&lt;p&gt;プロフィールページからリポジトリページに移動し、言語を選択し、YAMLファイルに移動してエディタを開きます。&lt;/p&gt;
+
+&lt;p&gt;以下のビデオや &lt;a href=&quot;http://docs.gitlocalize.com/getting_started.html&quot;&gt;ドキュメンテーション&lt;/a&gt; をみて、この後のプロセスについて学んでみてください。&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.youtube.com/embed/b09LDukIJiU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width: 100%; height: 500px&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Mon, 25 Sep 2017 00:00:00 +0900</pubDate>
+      </item>
     
       <item>
         <title>GitLocalizeがGitHubマーケットプレイスにローンチされました！</title>

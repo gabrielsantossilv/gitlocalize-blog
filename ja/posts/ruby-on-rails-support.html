@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>GitLocalizeを使ってRuby on Rails アプリをローカライズ | GitLocalize blog</title>
+	<meta name="description" content="Ruby on Railsのi18n YAMLファイルを管理とそれに伴うローカリゼーション作業に苦労していませんか？ GitLocalizeは面倒なRails i18nのすべての作業を簡単にすることができます！">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="/js/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/ja/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/ja/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://blog.gitlocalize.com/ja/posts/ruby-on-rails-support.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="GitLocalize blog" href="http://blog.gitlocalize.com/ja/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,700italic,400italic" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-79830225-4', 'auto');
+	ga('send', 'pageview');
+	</script>
+	
+
+  <meta property="og:title" content="GitLocalizeを使ってRuby on Rails アプリをローカライズ | GitLocalize blog">
+  <meta property="og:site_name" content="GitLocalize Blog">
+  <meta property="og:description" content="Ruby on Railsのi18n YAMLファイルを管理とそれに伴うローカリゼーション作業に苦労していませんか？ GitLocalizeは面倒なRails i18nのすべての作業を簡単にすることができます！">
+  <meta property="og:image" content="http://blog.gitlocalize.com/img/gitlocalize.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@gitlocalize">
+  <meta name="twitter:creator" content="@gitlocalize">
+  <meta name="twitter:title" content="GitLocalizeを使ってRuby on Rails アプリをローカライズ | GitLocalize blog">
+  <meta name="twitter:description" content="Ruby on Railsのi18n YAMLファイルを管理とそれに伴うローカリゼーション作業に苦労していませんか？ GitLocalizeは面倒なRails i18nのすべての作業を簡単にすることができます！">
+  <meta name="twitter:image:src" content="http://blog.gitlocalize.com/img/gitlocalize.png">
+</head>
+
+  <body>
+    <header class="navbar navbar-default gl-header">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/ja/">
+        <img class="avatar" src="/ja/img/logo.png"/>blog
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+	  			<a class="page-link" href="https://gitlocalize.com" target="_blank">GitLocalize</a>
+        </li>
+	  		
+          
+	  		
+          
+	  		
+          
+	  		
+          
+	  		
+	  		<!-- Social icons from Font Awesome, if enabled -->
+	  		
+<li>
+	<a href="http://blog.gitlocalize.com/ja/feed.xml" title="Follow RSS feed">
+		<i class="fa fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+<li>
+	<a href="mailto:info@gitlocalize.com" title="Email">
+		<i class="fa fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <div class="container content-container">
+      <article >
+  <header style="background-image: url('/ja/')">
+    <h1 class="title">GitLocalizeを使ってRuby on Rails アプリをローカライズ</h1>
+    <p class="meta">
+    September 25, 2017
+    
+    
+      <ul class="languages">
+        
+          <li>
+            
+              <a href="/posts/ruby-on-rails-support.html">en</a>
+            
+          </li>
+        
+      </ul>
+    
+    </p>
+  </header>
+  <section class="post-content"><p>Ruby on Railsのi18n YAMLファイルを管理とそれに伴うローカリゼーション作業に苦労していませんか？ GitLocalizeは面倒なRails i18nのすべての作業を簡単にすることができます！</p>
+
+<h1 id="開始する">開始する</h1>
+
+<p>まだサインアップしていない場合は、無料でGitLocalizeに登録して、Railsアプリをストレスなくローカライズする準備をしましょう。</p>
+
+<p><a class="btn btn-hero" href="https://gitlocalize.com/auth/github">
+  <i class="fa fa-github"></i><span style="margin-left: 6px;">無料で始める</span>
+</a></p>
+
+<p>GitLocalizeが実際にどう動くのか、<a href="/posts/introducing-gitlocalize.html">こちらのブログ記事</a> をチェックしてみてください。</p>
+
+<h1 id="railsアプリを登録する">Railsアプリを登録する</h1>
+
+<p>プロフィールから <code class="highlighter-rouge">Repository追加</code> ページへ移動すると、GitHubリポジトリをGitLocalizeに追加するフォームがあります。</p>
+
+<p>ページの中央で、ソースi18nファイルの場所と翻訳ファイルの生成場所を指定します。</p>
+
+<p>たとえば英語のi18n YAMLファイルが<code class="highlighter-rouge">config/locales/en.yml</code>にあり、 翻訳したいファイルが<code class="highlighter-rouge">config/locales/ja.yml</code>や<code class="highlighter-rouge">config/locales/es.yml</code>にあるとします。この場合、左側のドロップダウンメニューで<code class="highlighter-rouge">File</code>を選択し、 <code class="highlighter-rouge">Source Path</code>に<code class="highlighter-rouge">config/locales/en.yml</code> 、<code class="highlighter-rouge">Translation Path</code>に<code class="highlighter-rouge">config/locales/%lang%.yml</code>を入力します。</p>
+
+<p><img src="/img/ror/path_rule.png" alt="Add Rules" /></p>
+
+<p>この <code class="highlighter-rouge">%lang%</code> は翻訳対象言語の二文字の言語コードのプレースホルダーです。例えば、日本語とスペイン語を翻訳している場合、<code class="highlighter-rouge">ja.yml</code> と <code class="highlighter-rouge">es.yml</code> がそれぞれ生成されます。</p>
+
+<p>i18nファイルが複数ある場合は、 <code class="highlighter-rouge">+ Add Rule</code>ボタンをクリックすることで、複数のルールを登録できます。</p>
+
+<h1 id="ローカライズを始める">ローカライズを始める</h1>
+
+<p>リポジトリの登録が完了したら、GitLocalizeであなたのRailsアプリの継続的ローカライズを始めることができます。</p>
+
+<p>プロフィールページからリポジトリページに移動し、言語を選択し、YAMLファイルに移動してエディタを開きます。</p>
+
+<p>以下のビデオや <a href="http://docs.gitlocalize.com/getting_started.html">ドキュメンテーション</a> をみて、この後のプロセスについて学んでみてください。</p>
+
+<iframe src="https://www.youtube.com/embed/b09LDukIJiU" frameborder="0" allowfullscreen="" style="width: 100%; height: 500px"></iframe>
+</section>
+</article>
+
+<!-- Post navigation -->
+
+
+<!-- Disqus -->
+
+
+<!-- Muut -->
+
+
+    </div>
+    
+<script src="/ja/js/katex_init.js"></script>
+
+
+
+
+  </body>
+</html>

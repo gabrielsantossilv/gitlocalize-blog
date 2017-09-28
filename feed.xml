@@ -5,7 +5,7 @@
     <atom:link href="http://blog.gitlocalize.com/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://blog.gitlocalize.com/</link>
     <description></description>
-    <pubDate>Mon, 25 Sep 2017 18:40:00 +0900</pubDate>
+    <pubDate>Thu, 28 Sep 2017 09:59:57 +0900</pubDate>
     
       <item>
         <title>Localize Your Ruby on Rails App with GitLocalize</title>
@@ -29,7 +29,7 @@
 
 &lt;p&gt;In the middle of the page, specify where your source i18n files are located and where you want to generate translated files.&lt;/p&gt;
 
-&lt;p&gt;For example, let’s say that you have source English i18n YAML files at &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; and want to have translated ones at &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/ja.yml&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/es.yml&lt;/code&gt;. Set the drop-down menu on the left to &lt;code class=&quot;highlighter-rouge&quot;&gt;File&lt;/code&gt;, then select &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; for &lt;code class=&quot;highlighter-rouge&quot;&gt;Source Path&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/%lang%.yml&lt;/code&gt; for &lt;code class=&quot;highlighter-rouge&quot;&gt;Translation Path&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;For example, let’s say that you have source English i18n YAML files at &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; and want to have translated ones at &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/ja.yml&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/es.yml&lt;/code&gt;. Set the drop-down menu on the left to &lt;code class=&quot;highlighter-rouge&quot;&gt;File&lt;/code&gt;, then type &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/en.yml&lt;/code&gt; for &lt;code class=&quot;highlighter-rouge&quot;&gt;Source Path&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;config/locales/%lang%.yml&lt;/code&gt; for &lt;code class=&quot;highlighter-rouge&quot;&gt;Translation Path&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/ror/path_rule.png&quot; alt=&quot;Add Rules&quot; /&gt;&lt;/p&gt;
 
