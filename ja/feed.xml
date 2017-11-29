@@ -5,7 +5,24 @@
     <atom:link href="http://blog.gitlocalize.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://blog.gitlocalize.com/ja/</link>
     <description></description>
-    <pubDate>Thu, 28 Sep 2017 10:02:16 +0900</pubDate>
+    <pubDate>Wed, 29 Nov 2017 15:59:41 +0900</pubDate>
+    
+      <item>
+        <title>GoogleのWeb FundamentalsがローカライズにGitLocalizeを試験運用開始</title>
+        <link>http://blog.gitlocalize.com/ja/posts/gitlocalize-webfundamentals.html</link>
+        <guid isPermaLink="true">http://blog.gitlocalize.com/ja/posts/gitlocalize-webfundamentals.html</guid>
+        <description>&lt;p&gt;&lt;img src=&quot;/img/webfundamentals_gitlocalize.png&quot; alt=&quot;Web Fundamentals x GitLocalize&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/web/resources/translations&quot;&gt;GitLocalizeがGoogleのプロジェクトにて試験的に導入が開始されました&lt;/a&gt;！ Web Fundamentalsのウェブサイトを、コミュニティと共にGitLocalizeを活用してローカライズを進めて行きます。&lt;/p&gt;
+
+&lt;p&gt;現在Web Fundamentalsのコミュニティはウェブサイトを17の言語にローカライズしてきました。しかし翻訳を常に最新の状態に保つのはとても難しいことでした。GitLocalizeがそれを解決することを願っています！&lt;/p&gt;
+
+&lt;p&gt;Web Fundamentalsのコミュニティに参加して、最新のウェブ技術の知見を自分の言語にローカライズしてみましょう！　イノベーションに言語の壁が邪魔してはいけないはずです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gitlocalize.com/repo/107&quot;&gt;プロジェクトに参加する&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Nov 2017 00:00:00 +0900</pubDate>
+      </item>
     
       <item>
         <title>GitLocalizeを使ってRuby on Rails アプリをローカライズ</title>
